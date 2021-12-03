@@ -1,0 +1,35 @@
+.main {
+    display: grid;
+    grid-template-columns: 20px 100% 20px;
+    grid-template-rows: 120px 100%;
+}
+.body {
+    grid-row: 2;
+    grid-column: 2;
+    font-size:  30px;   
+}
+.body ul {
+    display: grid;
+    grid-template-columns: fr4 fr4 fr4 ;
+}
+.body ul li {
+    list-style: decimal;
+}
+.first {
+    grid-column: 1;
+}
+.second {
+    grid-column: 2;
+}
+.third {
+    grid-column: 3;
+}
+.header {
+    grid-row: 1;
+    grid-column: 2;
+    
+}
+.header input,button {
+    color:blue;
+    font-size:  20px;
+}
